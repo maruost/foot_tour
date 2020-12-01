@@ -1,0 +1,45 @@
+$max-width: 1280px;
+$font-ubuntu: "Ubuntu";
+$font-roboto: "Roboto";
+$font-opensans: "OpenSans";
+$bold: 700;
+$regular: 400;
+$semibold: 600;
+$color-violet: #5047d7;
+$color-grey: #3c3e44;
+$color-white: #f2f2f2;
+$color-light-grey: #8c8c8c;
+$color-medium-grey: #747474;
+
+@mixin font-settings($fam, $fsize, $lh, $fwheight, $color) {
+  font-family: $fam;
+  font-size: $fsize;
+  line-height: $lh;
+  font-weight: $fwheight;
+  color: $color;
+}
+
+@import "../vendor/fonts.css";
+@import "../vendor/normalize.css";
+@import "../blocks/header/header.scss";
+@import "../blocks/page/page.scss";
+@import "../blocks/main/main.scss";
+@import "../blocks/logo/logo.scss";
+@import "../blocks/menu/menu.scss";
+@import "../blocks/button/button.scss";
+@import "../blocks/rating/rating.scss";
+@import "../blocks/hotel/hotel.scss";
+@import "../blocks/nav-button/nav-button.scss";
+@import "../blocks/grid/grid.scss";
+@import "../blocks/slider/slider.scss";
+@import "../blocks/subtitle/subtitle.scss";
+@import "../blocks/cards-with-btn/cards-with-btn.scss";
+@import "../blocks/card-with-btn/card-with-btn.scss";
+@import "../blocks/other-hotels/other-hotels.scss";
+@import "../blocks/hotel-cards/hotel-cards.scss";
+@import "../blocks/hotel-card/hotel-card.scss";
+@import "../blocks/interesting/interesting.scss";
+@import "../blocks/cards-with-text/cards-with-text.scss";
+@import "../blocks/card-with-text/card-with-text.scss";
+@import "../blocks/footer/footer.scss";
+@import "../blocks/search-field/search-field.scss";

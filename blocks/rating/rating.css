@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+  max-width: 250px;
+}
+.rating__point {
+  background-image: url(../../images/rating/gray-star.png);
+  width: 10px;
+  height: 10px;
+}
+.rating__point_yellow {
+  background-image: url(../../images/rating/yellow-star.png);
+}

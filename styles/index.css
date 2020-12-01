@@ -1,0 +1,530 @@
+@import "../vendor/fonts.css";
+@import "../vendor/normalize.css";
+.header {
+  width: 100%;
+  display: flex;
+}
+.header__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__button {
+  background-color: transparent;
+  color: #5047d7;
+  font-family: serif;
+}
+
+.page__header {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.page__footer {
+  padding: 40px 0;
+}
+
+.main__hotel {
+  margin: 60px auto 40px;
+}
+.main__other-hotels {
+  margin: 0px auto 40px;
+}
+
+.logo {
+  display: flex;
+}
+.logo__image {
+  width: 42px;
+  height: 52px;
+}
+.logo__text {
+  margin-left: 15px;
+}
+.logo__name {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #5047d7;
+  padding: 0 0;
+  margin: 0 0;
+}
+.logo__subtitle {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5047d7;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.menu__box {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.menu__item {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+}
+.menu__link {
+  text-decoration: none;
+  color: #3c3e44;
+}
+
+.button {
+  font-family: "Roboto";
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.button.button_color_none {
+  background-color: transparent;
+  color: #5047d7;
+}
+.button.button_color_violet {
+  background-color: #5047d7;
+  color: #f2f2f2;
+}
+.button.button_color_grey {
+  background-color: #3c3e44;
+  color: #f2f2f2;
+}
+.button.button_size_xs {
+  font-size: 12px;
+  padding: 10px 30px;
+}
+.button.button_size_s {
+  font-size: 16px;
+}
+.button.button_size_l {
+  font-size: 20px;
+  padding: 10px 50px;
+}
+.button.button_more-link {
+  background-color: #ffffff;
+  color: #747474;
+  box-shadow: 0 -15px 10px rgba(255, 255, 255, 0.9);
+}
+
+.rating {
+  display: flex;
+  max-width: 250px;
+}
+.rating__point {
+  background-image: url(../../images/rating/gray-star.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.rating__point.rating__point_yellow {
+  background-image: url(../../images/rating/yellow-star.png);
+}
+
+.hotel {
+  width: 100%;
+  display: flex;
+}
+.hotel__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.hotel__header {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.hotel__info-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hotel__name {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #3c3e44;
+  padding: 0 0;
+  margin: 0 0;
+}
+.hotel__adress {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #8c8c8c;
+  padding: 0 0;
+  margin: 0 0 10px;
+}
+.hotel__tels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  list-style: none;
+  padding: 0 0;
+  margin: 0 0;
+}
+.hotel__tel {
+  padding: 0 0;
+  margin: 0 0;
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3c3e44;
+}
+.hotel__slider {
+  margin-bottom: 40px;
+}
+.hotel__about {
+  display: flex;
+  justify-content: start;
+}
+.hotel__text-container {
+  max-width: 520px;
+  position: relative;
+  margin-right: 10%;
+}
+.hotel__text {
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3c3e44;
+  margin-bottom: 10px;
+}
+.hotel__text span {
+  font-weight: 600;
+}
+.hotel__text:last-of-type {
+  margin-bottom: 0;
+}
+.hotel__more-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  place-items: center;
+  text-align: center;
+  width: 100%;
+}
+.hotel__icon {
+  width: 65px;
+  height: 65px;
+}
+.hotel__notes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.hotel__note {
+  display: flex;
+  justify-content: start;
+}
+.hotel__icon {
+  margin-right: 30px;
+}
+.hotel__note-text {
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3c3e44;
+}
+.hotel__about-cards {
+  max-width: 1280px;
+  margin: 40px 0 0;
+}
+
+.nav-button {
+  border: none;
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  place-items: center;
+}
+.nav-button.nav-button_dark {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-button.nav-button_dark path {
+  stroke: #3c3e44;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 190px);
+  grid-gap: 30px;
+}
+.grid__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.grid__image.grid__image_1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.grid__image.grid__image_2 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.grid__image.grid__image_3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.grid__image.grid__image_4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.slider {
+  position: relative;
+}
+.slider__nav-button {
+  position: absolute;
+  place-items: center;
+  top: 50%;
+  right: 0px;
+}
+.slider__nav-button.slider__nav-button_right {
+  right: 30px;
+}
+.slider__nav-button.slider__nav-button_left {
+  left: 30px;
+}
+
+.subtitle {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #747474;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.cards-with-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-with-btn {
+  max-width: 255px;
+}
+.card-with-btn__image {
+  width: 100%;
+  border-radius: 12px;
+}
+.card-with-btn__wrapper {
+  margin: 20px auto;
+}
+.card-with-btn__title {
+  font-family: "Ubuntu";
+  font-size: 16;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #3c3e44;
+  margin-bottom: 10px;
+}
+.card-with-btn__description {
+  font-family: "OpenSans";
+  font-size: 16;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3c3e44;
+  margin-bottom: 10px;
+}
+
+.other-hotels__wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.other-hotels__subtitle {
+  margin-bottom: 20px;
+}
+
+.hotel-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hotel-card {
+  max-width: 350px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.hotel-card__image {
+  width: 100%;
+  background-size: cover;
+  height: 260px;
+}
+.hotel-card__wrapper {
+  max-width: 90%;
+  margin: 20px auto 40px;
+}
+.hotel-card__title {
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #3c3e44;
+}
+.hotel-card__description {
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3c3e44;
+}
+.hotel-card__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interesting {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.interesting__wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.interesting__subtitle {
+  margin-bottom: 20px;
+}
+
+.cards-with-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 150%;
+  margin-left: -300px;
+  overflow: hidden;
+}
+
+.card-with-text {
+  width: 340px;
+  position: relative;
+}
+.card-with-text__image::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  z-index: 1;
+}
+.card-with-text__image {
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  border-radius: 4px;
+}
+.card-with-text__text {
+  font-family: "Ubuntu";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #f2f2f2;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  padding: 0 0;
+  margin: 0 0;
+  z-index: 2;
+}
+
+.footer {
+  background-color: #3c3e44;
+}
+.footer__wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title {
+  padding: 0 0;
+  margin: 0 0 15px;
+  font-family: "Ubuntu";
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+.footer__description {
+  font-family: "OpenSans";
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f2f2f2;
+  max-width: 265px;
+}
+.footer__image {
+  width: 205px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+.footer__search-field {
+  margin-bottom: 20px;
+}
+.footer__sections {
+  display: flex;
+}
+.footer__section {
+  list-style-image: url(../../images/footer/__section/marker.png);
+  padding: 0 0;
+  margin: 0 40px 0 0;
+}
+.footer__link {
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f2f2f2;
+  color: #f2f2f2;
+}
+
+.search-field {
+  width: 230px;
+  height: 44px;
+  border-radius: 8px;
+  display: block;
+}

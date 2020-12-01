@@ -1,0 +1,12 @@
+.interesting {
+  overflow: hidden;
+  margin-bottom: 40px;
+  &__wrapper {
+    max-width: $max-width;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+}

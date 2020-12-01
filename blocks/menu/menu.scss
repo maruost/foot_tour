@@ -1,0 +1,17 @@
+.menu {
+  &__box {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  &__item {
+    font-family: $font-roboto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  &__link {
+    text-decoration: none;
+    color: $color-grey;
+  }
+}

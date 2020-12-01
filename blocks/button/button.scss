@@ -1,0 +1,41 @@
+$font_xs: 12px;
+$font_s: 16px;
+$font_l: 20px;
+
+.button {
+  font-family: $font-roboto;
+  border: none;
+  cursor: pointer;
+  font-weight: $bold;
+  border-radius: 8px;
+  &.button_color_none {
+    background-color: transparent;
+    color: $color-violet;
+  }
+  &.button_color_violet {
+    background-color: $color-violet;
+    color: $color-white;
+  }
+  &.button_color_grey {
+    background-color: $color-grey;
+    color: $color-white;
+  }
+
+  &.button_size_xs {
+    font-size: $font_xs;
+    padding: 10px 30px;
+  }
+
+  &.button_size_s {
+    font-size: $font_s;
+  }
+  &.button_size_l {
+    font-size: $font_l;
+    padding: 10px 50px;
+  }
+  &.button_more-link {
+    background-color: #ffffff;
+    color: $color-medium-grey;
+    box-shadow: 0 -15px 10px rgb(255, 255, 255, 0.9);
+  }
+}

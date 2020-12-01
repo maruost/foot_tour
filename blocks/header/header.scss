@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  display: flex;
+  &__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $max-width;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__button {
+    background-color: transparent;
+    color: $color-violet;
+    font-family: serif;
+  }
+
+}

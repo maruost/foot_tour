@@ -1,0 +1,33 @@
+@mixin grid-setting($col-start, $col-end, $row-start, $row-end) {
+  grid-column-start: $col-start;
+  grid-column-end: $col-end;
+  grid-row-start: $row-start;
+  grid-row-end: $row-end;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 190px);
+  grid-gap: 30px;
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+
+    &.grid__image_1 {
+      @include grid-setting(1, 3, 1, 3);
+    }
+    &.grid__image_2 {
+      @include grid-setting(3, 3, 1, 1);
+    }
+    &.grid__image_3 {
+      @include grid-setting(3, 3, 2, 2);
+    }
+    &.grid__image_4 {
+      @include grid-setting(4, 4, 1, 3);
+    }
+  }
+}

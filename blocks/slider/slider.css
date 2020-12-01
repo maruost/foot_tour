@@ -1,0 +1,6 @@
+.slider__nav-button {
+  position: absolute;
+  place-items: center;
+  top: 50%;
+  right: 30px;
+}

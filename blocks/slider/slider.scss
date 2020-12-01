@@ -1,0 +1,15 @@
+.slider {
+  position: relative;
+  &__nav-button {
+    position: absolute;
+    place-items: center;
+    top: 50%;
+    right: 0px;
+    &.slider__nav-button_right {
+      right: 30px;
+    }
+    &.slider__nav-button_left {
+      left: 30px;
+    }
+  }
+}

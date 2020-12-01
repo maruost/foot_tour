@@ -1,0 +1,42 @@
+.footer {
+  background-color: $color-grey;
+
+  &__wrapper {
+    max-width: $max-width;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    padding: 0 0;
+    margin: 0 0 15px;
+    @include font-settings($font-ubuntu, 14px, 1.5, $bold, $color-white);
+  }
+  &__description {
+    @include font-settings($font-opensans, 12px, 1.5, $regular, $color-white);
+    max-width: 265px;
+  }
+  &__image {
+    width: 205px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+  &__search-field {
+    margin-bottom: 20px;
+  }
+  &__sections {
+    display: flex;
+  }
+  &__section {
+    list-style-image: url(../../images/footer/__section/marker.png);
+    padding: 0 0;
+    margin: 0 40px 0 0;
+  }
+  &__link {
+    text-decoration: none;
+    @include font-settings($font-opensans, 12px, 1.5, $regular, $color-white);
+    color: $color-white;
+  }
+}

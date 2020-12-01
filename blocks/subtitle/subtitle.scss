@@ -1,0 +1,5 @@
+.subtitle {
+  @include font-settings($font-ubuntu, 20px, 1.5, $bold, $color-medium-grey);
+  padding: 0 0;
+  margin: 0 0;
+}

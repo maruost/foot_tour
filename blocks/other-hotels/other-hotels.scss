@@ -1,0 +1,10 @@
+.other-hotels {
+  &__wrapper {
+    max-width: $max-width;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,106 @@
+.hotel {
+  width: 100%;
+  display: flex;
+  &__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: $max-width;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &__header {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  &__info-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__name {
+    @include font-settings($font-ubuntu, 30px, 1.5, $bold, $color-grey);
+    padding: 0 0;
+    margin: 0 0;
+  }
+  &__adress {
+    @include font-settings(
+      $font-opensans,
+      14px,
+      1.5,
+      $regular,
+      $color-light-grey
+    );
+    padding: 0 0;
+    margin: 0 0 10px;
+  }
+  &__tels {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+  }
+  &__tel {
+    padding: 0 0;
+    margin: 0 0;
+    text-decoration: none;
+    @include font-settings($font-opensans, 14px, 1.5, $regular, $color-grey);
+  }
+  &__slider {
+    margin-bottom: 40px;
+  }
+  &__about {
+    display: flex;
+    justify-content: start;
+  }
+
+  &__text-container {
+    max-width: 520px;
+    position: relative;
+    margin-right: 10%;
+  }
+  &__text {
+    @include font-settings($font-opensans, 16px, 1.5, $regular, $color-grey);
+    span {
+      font-weight: $semibold;
+    }
+    margin-bottom: 10px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__more-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    place-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  &__icon {
+    width: 65px;
+    height: 65px;
+  }
+  &__notes-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &__note {
+    display: flex;
+    justify-content: start;
+  }
+  &__icon {
+    margin-right: 30px;
+  }
+  &__note-text {
+    @include font-settings($font-opensans, 16px, 1.5, $regular, $color-grey);
+  }
+  &__about-cards {
+    max-width: $max-width;
+    margin: 40px 0 0;
+  }
+}
