@@ -1,8 +1,8 @@
 @import "../vendor/fonts.css";
 @import "../vendor/normalize.css";
 .body {
-  background: darkgray;
-  background: linear-gradient(0deg, darkgray 0%, #b8b8b8 4%, #bebebe 8%, #cbcbcb 14%, #d2d2d2 19%, #d5d5d5 22%, #dfdfdf 35%, white 73%);
+  background: #d5d5d5;
+  background: linear-gradient(0deg, #d5d5d5 0%, #eeeeee 19%, white 73%);
   z-index: -1;
 }
 
