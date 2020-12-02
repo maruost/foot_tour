@@ -1,5 +1,11 @@
 @import "../vendor/fonts.css";
 @import "../vendor/normalize.css";
+.body {
+  background: darkgray;
+  background: linear-gradient(0deg, darkgray 0%, #b8b8b8 4%, #bebebe 8%, #cbcbcb 14%, #d2d2d2 19%, #d5d5d5 22%, #dfdfdf 35%, white 73%);
+  z-index: -1;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -383,6 +389,7 @@
 .hotel-card {
   max-width: 350px;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 .hotel-card__image {
   width: 100%;
@@ -392,6 +399,7 @@
 .hotel-card__wrapper {
   max-width: 90%;
   margin: 20px auto 40px;
+  background-color: #fff;
 }
 .hotel-card__title {
   text-transform: uppercase;

@@ -1,6 +1,7 @@
 .hotel-card {
   max-width: 350px;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   &__image {
     width: 100%;
     background-size: cover;
@@ -9,6 +10,7 @@
   &__wrapper {
     max-width: 90%;
     margin: 20px auto 40px;
+    background-color: #fff;
   }
   &__title {
     text-transform: uppercase;
