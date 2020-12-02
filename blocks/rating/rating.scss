@@ -2,15 +2,15 @@
   display: flex;
   max-width: 250px;
   &__point {
-    background-image: url(../../images/rating/gray-star.png);
-    width: 20px;
-    height: 20px;
+    background-image: url(../images/rating/gray-star.png);
     background-repeat: no-repeat;
     background-position: center;
+    width: 20px;
+    height: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
     &.rating__point_yellow {
-      background-image: url(../../images/rating/yellow-star.png);
+      background-image: url(../images/rating/yellow-star.png);
     }
   }
 }

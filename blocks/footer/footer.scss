@@ -1,6 +1,5 @@
 .footer {
   background-color: $color-grey;
-
   &__wrapper {
     max-width: $max-width;
     width: 100%;
@@ -30,7 +29,9 @@
     display: flex;
   }
   &__section {
-    list-style-image: url(../../images/footer/__section/marker.png);
+    color: $color-white;
+    list-style-type: none;
+    list-style-image: url(../images/footer/__section/pointer.png);
     padding: 0 0;
     margin: 0 40px 0 0;
   }

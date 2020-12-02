@@ -119,16 +119,16 @@
   max-width: 250px;
 }
 .rating__point {
-  background-image: url(../../images/rating/gray-star.png);
-  width: 20px;
-  height: 20px;
+  background-image: url(../images/rating/gray-star.png);
   background-repeat: no-repeat;
   background-position: center;
+  width: 20px;
+  height: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 .rating__point.rating__point_yellow {
-  background-image: url(../../images/rating/yellow-star.png);
+  background-image: url(../images/rating/yellow-star.png);
 }
 
 .hotel {
@@ -508,7 +508,9 @@
   display: flex;
 }
 .footer__section {
-  list-style-image: url(../../images/footer/__section/marker.png);
+  color: #f2f2f2;
+  list-style-type: none;
+  list-style-image: url(../images/footer/__section/pointer.png);
   padding: 0 0;
   margin: 0 40px 0 0;
 }
