@@ -2,7 +2,7 @@
 @import "../vendor/normalize.css";
 .body {
   background: #d5d5d5;
-  background: linear-gradient(0deg, #d5d5d5 0%, #eeeeee 19%, white 73%);
+  background: linear-gradient(0deg, #d5d5d5 0%, #eeeeee 16%, #f4f4f4 27%, white 51%);
   z-index: -1;
 }
 
